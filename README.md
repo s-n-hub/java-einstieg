@@ -11,6 +11,7 @@ Die Programme sind bewusst einfach gehalten. Sie illustrieren bestimmte Sprachst
 | [DurchschnittsnotenRechner](#durchschnittsnotenrechner) | Variablen, Operatoren, Ausgabe  | Berechnung von Notenpunkten anhand von Schülerzahl und Notenschnitt   |
 | [ZweiZahlenRechner](#zweizahlenrechner)                 | Eingaben, Variablen, Operatoren | Führt mit zwei Zahlen alle vier Grundrechenarten durch                |
 | [TierKlassifizierer](#tierklassifizierer)               | Benutzereingabe, Verzweigungen  | Klassifikation nach Lebensdauer und Flugfähigkeit anhand der Eingaben |
+| [SchleifenDemo](#schleifendemo)                         | Schleifen, Benutzereingabe     | Demonstration von while-, do-while- und for-Schleifen               |
 | ...                                                     | ...                             | ...                                                                   |
 
 ## Setup
@@ -78,5 +79,26 @@ Fragt über die Konsole tierbezogene Informationen ab (Name, Lebensdauer, Flugf�
 **Erweiterungsideen:**
 - ungültige Eingaben abfangen und Möglichkeit zur Neueingabe
 - Auslagerung der Klassifikationen in eigene Methoden
+
+---
+## SchleifenDemo
+
+**Thema:** Schleifen, Benutzereingabe  
+**Datei:** `SchleifenDemo.java`
+
+**Beschreibung:**  
+Demonstriert den Einsatz von drei verschiedenen Schleifentypen:
+- `while`: Zählt von 1 bis 10
+- `do-while`: Fragt wiederholt nach einem „Zauberwort“ (hier: „bitte“)
+- `for`: Zählt rückwärts von 10 bis 1
+
+**Lernziele:**
+- Verständnis der Unterschiede zwischen `while`, `do-while` und `for`
+- Verwendung von Kontrollstrukturen zur Steuerung des Programmablaufs
+- Einfache Benutzereingabe mit `Scanner` und Stringvergleich (`equalsIgnoreCase`)
+
+**Erweiterungsideen:**
+- Auslagerung der Schleifen in eigene Methoden
+- Ausgabe-Verzögerung mit `Thread.sleep()`, um den Zahlenlauf sichtbar zu machen
 
 ---

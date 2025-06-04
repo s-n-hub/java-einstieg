@@ -6,10 +6,11 @@ Die Programme sind bewusst einfach gehalten. Sie illustrieren bestimmte Sprachst
 
 ## Inhalt
 
-| Übung                                                   | Thema                          | Beschreibung                                                        |
-|---------------------------------------------------------|--------------------------------|---------------------------------------------------------------------|
-| [DurchschnittsnotenRechner](#durchschnittsnotenrechner) | Variablen, Operatoren, Ausgabe | Berechnung von Notenpunkten anhand von Schülerzahl und Notenschnitt |
-| ...                                                     | ...                            | ...                                                                 |
+| Übung                                                   | Thema                            | Beschreibung                                                        |
+|---------------------------------------------------------|----------------------------------|---------------------------------------------------------------------|
+| [DurchschnittsnotenRechner](#durchschnittsnotenrechner) | Variablen, Operatoren, Ausgabe   | Berechnung von Notenpunkten anhand von Schülerzahl und Notenschnitt |
+| [ZweiZahlenRechner](#zweizahlenrechner)                 | Eingaben, Variablen, Operatoren  | Führt mit zwei Zahlen alle vier Grundrechenarten durch              |
+| ...                                                     | ...                              | ...                                                                 |
 
 ## Setup
 Alle Programme können direkt in einer Java-IDE ausgeführt werden. SDK: Java 21.
@@ -20,7 +21,7 @@ Alle Programme können direkt in einer Java-IDE ausgeführt werden. SDK: Java 21
 
 ## DurchschnittsnotenRechner
 
-**Thema:** Variablen, Operatoren, Konsolenausgabe
+**Thema:** Variablen, Operatoren, Konsolenausgabe  
 **Datei:** `DurchschnittsnotenRechner.java`
 
 **Beschreibung:**  
@@ -35,3 +36,24 @@ Berechnet die Gesamtanzahl der Notenpunkte aus einer Schüleranzahl und einer Du
 - Benutzereingabe mit `Scanner`
 - Formatierung der Ausgabe
 - Umwandlung in eine Methode
+
+---
+## ZweiZahlenRechner
+
+**Thema:** Eingaben, Variablen, Operatoren, einfache Verzweigung  
+**Datei:** `ZweiZahlenRechner.java`
+
+**Beschreibung:**  
+Liest zwei ganze Zahlen über die Konsole ein und führt die vier Grundrechenarten (Addition, Subtraktion, Multiplikation, Division) durch. Eine versuchte Division durch Null wird erkannt und entsprechend behandelt.
+
+**Lernziele:**
+- Verwendung des `Scanner` zur Benutzereingabe
+- Deklaration und Nutzung von Variablen
+- Grundrechenarten mit `int` und Typumwandlung für Division
+- Einfache `if-else`-Verzweigung zur Fehlervermeidung
+- Konsolenausgabe mit `System.out.println`
+
+**Erweiterungsideen:**
+- Auslagerung der Rechenoperationen in eigene Methoden
+- Eingabeprüfung für nicht-numerische Inputs
+- Auswahl der Rechenart über ein Menü

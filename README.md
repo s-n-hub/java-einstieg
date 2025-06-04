@@ -6,13 +6,14 @@ Die Programme sind bewusst einfach gehalten. Sie illustrieren bestimmte Sprachst
 
 ## Inhalt
 
-| Übung                                                   | Thema                           | Beschreibung                                                          |
-|---------------------------------------------------------|---------------------------------|-----------------------------------------------------------------------|
-| [DurchschnittsnotenRechner](#durchschnittsnotenrechner) | Variablen, Operatoren, Ausgabe  | Berechnung von Notenpunkten anhand von Schülerzahl und Notenschnitt   |
-| [ZweiZahlenRechner](#zweizahlenrechner)                 | Eingaben, Variablen, Operatoren | Führt mit zwei Zahlen alle vier Grundrechenarten durch                |
-| [TierKlassifizierer](#tierklassifizierer)               | Benutzereingabe, Verzweigungen  | Klassifikation nach Lebensdauer und Flugfähigkeit anhand der Eingaben |
-| [SchleifenDemo](#schleifendemo)                         | Schleifen, Benutzereingabe     | Demonstration von while-, do-while- und for-Schleifen               |
-| ...                                                     | ...                             | ...                                                                   |
+| Übung                                                   | Thema                           | Beschreibung                                                           |
+|---------------------------------------------------------|---------------------------------|------------------------------------------------------------------------|
+| [DurchschnittsnotenRechner](#durchschnittsnotenrechner) | Variablen, Operatoren, Ausgabe  | Berechnung von Notenpunkten anhand von Schülerzahl und Notenschnitt    |
+| [ZweiZahlenRechner](#zweizahlenrechner)                 | Eingaben, Variablen, Operatoren | Führt mit zwei Zahlen alle vier Grundrechenarten durch                 |
+| [TierKlassifizierer](#tierklassifizierer)               | Benutzereingabe, Verzweigungen  | Klassifikation nach Lebensdauer und Flugfähigkeit anhand der Eingaben  |
+| [SchleifenDemo](#schleifendemo)                         | Schleifen, Benutzereingabe      | Demonstration von while-, do-while- und for-Schleifen                  |
+| [TextAdventure](#textadventure)                         | Kontrollstrukturen              | Konsolenbasiertes Escape-Spiel mit Raumlogik und Entscheidungsstruktur |
+| ...                                                     | ...                             | ...                                                                    |
 
 ## Setup
 Alle Programme können direkt in einer Java-IDE ausgeführt werden. SDK: Java 21.
@@ -101,4 +102,23 @@ Demonstriert den Einsatz von drei verschiedenen Schleifentypen:
 - Auslagerung der Schleifen in eigene Methoden
 - Ausgabe-Verzögerung mit `Thread.sleep()`, um den Zahlenlauf sichtbar zu machen
 
+---
+## TextAdventure
+
+**Thema:** Kontrollstrukturen, Konsoleneingabe  
+**Datei:** `TextAdventure.java`
+
+**Beschreibung:**  
+Ein einfaches Text-Adventure-Spiel, in dem der Spieler mehrere Räume durchläuft und jeweils eine Entscheidung treffen muss, um weiterzukommen. Am Ende kann das Spiel wiederholt werden.
+
+**Lernziele:**
+- Verwendung von Kontrollstrukturen: `switch-case`, `while`, `for`, `do-while`
+- Konsoleneingabe mit `Scanner`
+- Strukturierung eines Spiels mit fortschreitender Spiellogik
+
+**Erweiterungsideen:**
+- Unterschiedliche richtige Entscheidungen je Raum
+- Auslagerung der Raum-Logik in Methoden
+- Eingabe-Validierung und Fehlerbehandlung
+- Erweiterung der Spielwelt mit ASCII-Art, Rätseln oder zusätzlichen Story-Elementen
 ---

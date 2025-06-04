@@ -6,11 +6,12 @@ Die Programme sind bewusst einfach gehalten. Sie illustrieren bestimmte Sprachst
 
 ## Inhalt
 
-| Übung                                                   | Thema                            | Beschreibung                                                        |
-|---------------------------------------------------------|----------------------------------|---------------------------------------------------------------------|
-| [DurchschnittsnotenRechner](#durchschnittsnotenrechner) | Variablen, Operatoren, Ausgabe   | Berechnung von Notenpunkten anhand von Schülerzahl und Notenschnitt |
-| [ZweiZahlenRechner](#zweizahlenrechner)                 | Eingaben, Variablen, Operatoren  | Führt mit zwei Zahlen alle vier Grundrechenarten durch              |
-| ...                                                     | ...                              | ...                                                                 |
+| Übung                                                   | Thema                           | Beschreibung                                                          |
+|---------------------------------------------------------|---------------------------------|-----------------------------------------------------------------------|
+| [DurchschnittsnotenRechner](#durchschnittsnotenrechner) | Variablen, Operatoren, Ausgabe  | Berechnung von Notenpunkten anhand von Schülerzahl und Notenschnitt   |
+| [ZweiZahlenRechner](#zweizahlenrechner)                 | Eingaben, Variablen, Operatoren | Führt mit zwei Zahlen alle vier Grundrechenarten durch                |
+| [TierKlassifizierer](#tierklassifizierer)               | Benutzereingabe, Verzweigungen  | Klassifikation nach Lebensdauer und Flugfähigkeit anhand der Eingaben |
+| ...                                                     | ...                             | ...                                                                   |
 
 ## Setup
 Alle Programme können direkt in einer Java-IDE ausgeführt werden. SDK: Java 21.
@@ -57,3 +58,25 @@ Liest zwei ganze Zahlen über die Konsole ein und führt die vier Grundrechenart
 - Auslagerung der Rechenoperationen in eigene Methoden
 - Eingabeprüfung für nicht-numerische Inputs
 - Auswahl der Rechenart über ein Menü
+
+---
+## TierKlassifizierer
+
+**Thema:** Benutzereingabe, if-else-Verzweigung  
+**Datei:** `TierKlassifizierer.java`
+
+**Beschreibung:**  
+Fragt über die Konsole tierbezogene Informationen ab (Name, Lebensdauer, Flugfähigkeit) und ordnet das Tier anhand der Lebensdauer und Flugfähigkeit einer Kategorie zu. Die Ergebnisse werden formatiert ausgegeben.
+
+**Lernziele:**
+- Verwendung des `Scanner`-Objekts zur Benutzereingabe
+- Arbeiten mit primitiven Datentypen (`int`, `String`)
+- Vergleich von Strings mit `.equalsIgnoreCase()`
+- Kontrollstrukturen mit `if`, `else if`, `else`
+- Strukturierte Konsolenausgabe
+
+**Erweiterungsideen:**
+- ungültige Eingaben abfangen und Möglichkeit zur Neueingabe
+- Auslagerung der Klassifikationen in eigene Methoden
+
+---

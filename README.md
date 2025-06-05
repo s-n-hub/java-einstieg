@@ -14,6 +14,7 @@ Die Programme sind bewusst einfach gehalten. Sie illustrieren bestimmte Sprachst
 | [SchleifenDemo](#schleifendemo)                         | Schleifen, Benutzereingabe      | Demonstration von while-, do-while- und for-Schleifen                  |
 | [TextAdventure](#textadventure)                         | Kontrollstrukturen              | Konsolenbasiertes Escape-Spiel mit Raumlogik und Entscheidungsstruktur |
 | [KreisflaechenRechner](#kreisflaechenrechner)           | Methoden, Math.PI               | Methode zur Berechnung der Kreisfläche anhand des Radius               |
+| [QuersummePrimzahl](#quersummeprimzahl)                 | Methoden, Kontrollstrukturen    | Analyse einer Zahl: Quersumme berechnen oder Primzahl prüfen           |
 | ...                                                     | ...                             | ...                                                                    |
 
 ## Setup
@@ -142,5 +143,26 @@ Berechnet den Flächeninhalt eines Kreises mit der Formel A = π * r². Die Meth
 - Eingabe des Radius über die Konsole (z.B. mit `Scanner`)
 - Fehlerbehandlung bei ungültigen Eingaben (z.B. negativer Radius)
 - Ergänzung um Methoden für weitere geometrische Formen
+
+---
+## QuersummePrimzahl
+
+**Thema:** Kontrollstrukturen, Methoden, Stringverarbeitung  
+**Datei:** `QuersummePrimzahl.java`
+
+**Beschreibung:**  
+Analysiert ganze Zahlen durch Berechnung der Quersumme oder Prüfung auf Primzahl. Die Auswertung erfolgt über eine zentrale Methode, die anhand eines String-Parameters zwischen den Analysearten unterscheidet.
+
+**Lernziele:**
+- Kontrollstrukturen: `if`, `while`, `for`, `switch`
+- Methoden mit Rückgabewerten (`int`, `boolean`, `String`)
+- Modularisierung und Wiederverwendbarkeit von Code
+- Fehlerbehandlung bei Nutzereingaben (Fallunterscheidung mit `switch`)
+- Stringverarbeitung (`toLowerCase()`)
+
+**Erweiterungsideen:**
+- Effizientere Primzahlprüfung mit Quadratwurzelgrenze
+- JUnit-Tests zur methodischen Absicherung
+- GUI oder Konsoleneingabe zur interaktiven Anwendung
 
 ---

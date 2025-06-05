@@ -13,6 +13,7 @@ Die Programme sind bewusst einfach gehalten. Sie illustrieren bestimmte Sprachst
 | [TierKlassifizierer](#tierklassifizierer)               | Benutzereingabe, Verzweigungen  | Klassifikation nach Lebensdauer und Flugfähigkeit anhand der Eingaben  |
 | [SchleifenDemo](#schleifendemo)                         | Schleifen, Benutzereingabe      | Demonstration von while-, do-while- und for-Schleifen                  |
 | [TextAdventure](#textadventure)                         | Kontrollstrukturen              | Konsolenbasiertes Escape-Spiel mit Raumlogik und Entscheidungsstruktur |
+| [KreisflaechenRechner](#kreisflaechenrechner)           | Methoden, Math.PI               | Methode zur Berechnung der Kreisfläche anhand des Radius               |
 | ...                                                     | ...                             | ...                                                                    |
 
 ## Setup
@@ -121,4 +122,25 @@ Ein einfaches Text-Adventure-Spiel, in dem der Spieler mehrere Räume durchläuf
 - Auslagerung der Raum-Logik in Methoden
 - Eingabe-Validierung und Fehlerbehandlung
 - Erweiterung der Spielwelt mit ASCII-Art, Rätseln oder zusätzlichen Story-Elementen
+
+---
+## KreisflaechenRechner
+
+**Thema:** Methoden, Math.PI, Konsolenausgabe  
+**Datei:** `KreisflaechenRechner.java`
+
+**Beschreibung:**  
+Berechnet den Flächeninhalt eines Kreises mit der Formel A = π * r². Die Methode `berechneKreisflaeche` wird mit festen Radien (5 und 7.5) aufgerufen, das Ergebnis wird ausgegeben.
+
+**Lernziele:**
+- Definition und Aufruf von Methoden mit Parameter und Rückgabewert
+- Verwendung der mathematischen Konstante `Math.PI`
+- Einfache mathematische Berechnung und Konsolenausgabe
+- Dokumentierung der Methode mit JavaDoc 
+
+**Erweiterungsideen:**
+- Eingabe des Radius über die Konsole (z.B. mit `Scanner`)
+- Fehlerbehandlung bei ungültigen Eingaben (z.B. negativer Radius)
+- Ergänzung um Methoden für weitere geometrische Formen
+
 ---

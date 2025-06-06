@@ -1,8 +1,10 @@
 # Java-Einstiegsübungen
 
-In diesem Repository sammle ich einfache Java-Übungen aus meiner Weiterbildung zur Softwareentwicklerin. Sie  dienen dem Einüben grundlegender Sprachmittel und Konzepte wie Variablen, Eingaben, Verzweigungen, Schleifen und einfache Methoden.
+In diesem Repository sammle ich einfache Java-Übungen aus meiner Weiterbildung zur Softwareentwicklerin. Sie dienen dem Einüben grundlegender Sprachmittel und Konzepte wie Variablen, Eingaben, Verzweigungen, Schleifen und einfache Methoden.
 
-Die Programme sind bewusst einfach gehalten. Sie illustrieren bestimmte Sprachstrukturen und dienen zum Erproben der Java-Syntax. Einige enthalten bereits Hinweise auf mögliche Erweiterungen oder Verbesserungsideen.
+Die Programme sind bewusst einfach gehalten. Sie illustrieren bestimmte Sprachstrukturen und dienen zum Erproben der Java-Syntax. Sie enthalten Hinweise auf mögliche Erweiterungen oder Verbesserungsideen, spiegeln aber sonst einen frühen Lernstand wider.
+
+Das Repository ist in diesem Zustand zunächst abgeschlossen. Eine Überarbeitung einzelner Programme mit fortgeschritteneren Konzepten wird ggf. noch in einer separaten Branch ergänzt.
 
 ## Inhalt
 
@@ -15,7 +17,8 @@ Die Programme sind bewusst einfach gehalten. Sie illustrieren bestimmte Sprachst
 | [TextAdventure](#textadventure)                         | Kontrollstrukturen              | Konsolenbasiertes Escape-Spiel mit Raumlogik und Entscheidungsstruktur |
 | [KreisflaechenRechner](#kreisflaechenrechner)           | Methoden, Math.PI               | Methode zur Berechnung der Kreisfläche anhand des Radius               |
 | [QuersummePrimzahl](#quersummeprimzahl)                 | Methoden, Kontrollstrukturen    | Analyse einer Zahl: Quersumme berechnen oder Primzahl prüfen           |
-| ...                                                     | ...                             | ...                                                                    |
+| [FakultaetsRechner](#fakultaetsrechner)                 | Rekursion, Methoden             | Rekursive Berechnung der Fakultät mit einfacher Fehlerbehandlung       |
+
 
 ## Setup
 Alle Programme können direkt in einer Java-IDE ausgeführt werden. SDK: Java 21.
@@ -164,5 +167,25 @@ Analysiert ganze Zahlen durch Berechnung der Quersumme oder Prüfung auf Primzah
 - Effizientere Primzahlprüfung mit Quadratwurzelgrenze
 - JUnit-Tests zur methodischen Absicherung
 - GUI oder Konsoleneingabe zur interaktiven Anwendung
+
+---
+## FakultaetsRechner
+
+**Thema:** Rekursion, Methoden, Testausgabe  
+**Datei:** `FakultaetsRechner.java`
+
+**Beschreibung:**  
+Berechnet die Fakultät einer gegebenen ganzen Zahl mit einem rekursiven Algorithmus. Für ungültige Eingaben (n < 0) wird der Fehlerwert -1 zurückgegeben. Eine Schleife in der `main()`-Methode testet mehrere Zahlen.
+
+**Lernziele:**
+- Rekursive Methoden (Selbstaufruf mit Abbruchbedingung)
+- Rückgabewerte und einfache Fehlerbehandlung ohne Exceptions
+- Strukturierte Testausgabe mit `System.out.println`
+- Sinnvolle Verwendung von Bedingungen (`if`, `else`)
+
+**Erweiterungsideen:**
+- Fehlerbehandlung mit `Exception`
+- Eingabe über Konsole mit `Scanner`
+- Test mit `JUnit`
 
 ---
